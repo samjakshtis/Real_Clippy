@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Real Estate KPI Analyzer</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        .kpi-container {
+            margin-top: 10px;
+        }
+        .kpi-item {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0055aa;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="analyze">Analyze Property</button>
+    <div id="results"></div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

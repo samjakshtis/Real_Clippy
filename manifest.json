@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Real Estate KPI Analyzer",
+  "version": "1.0",
+  "description": "Analyze real estate properties for key investment metrics",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://*.zillow.com/*"]
+}
